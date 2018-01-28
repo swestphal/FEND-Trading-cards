@@ -1,0 +1,52 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+
+.tradingcard {
+  border: 1px solid #ddd;
+  box-shadow: 8px 8px #eee;
+  width: 332px;  /* width + padding + border-width */
+  padding: 15px;
+  line-height: 1.3em;
+  font-size: 1rem;
+}
+
+.tradingcard__title {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.tradingcard__content {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.tradingcard__img {
+  margin-bottom: 15px;
+  width:300px;
+}
+
+.tradingcard__intro {
+  font-style: italic;
+}
+
+.tradingcard__features {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tradingcard__features li span {
+  font-weight: bold;
+}
